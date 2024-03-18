@@ -1,0 +1,124 @@
+.pickerButton {
+    width: 46px !important;
+    height: 46px !important;
+    border-radius: 25px;
+    float: right;
+    position: relative;
+    top: 7px;
+    left: 4.5%;
+
+    border-width: 2px;
+    border-style: solid;
+}
+
+.resetButton {
+    width: 30px !important;
+    height: 50px !important;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    top: 5px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    z-index: 3;
+
+    border: none !important;
+    outline: none;
+}
+
+.addButton {
+    width: 25% !important;
+    height: 30px !important;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    z-index: 3;
+    padding: 4px 4px !important;
+    margin-bottom: 20px;
+}
+
+.colorButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+}
+  
+.colorBox {
+    padding: 5px;
+    width: 265px;
+    background-color: #242424;
+
+    border-radius: 20px;
+    border-color: #FFF;
+    border-width: 2px;
+    border-style: solid;
+  
+    position: relative;
+    top: -150px;
+
+    z-index: 50;
+}
+  
+.colorBox table {
+    margin: auto;
+    position: relative;
+    left: 5px;
+}
+  
+.colorInput {
+    border-width: 0 !important;
+    text-transform: uppercase;
+
+    width: 27.5% !important;
+    top: 12px;
+    float: right;
+    left: 4%;
+
+    margin-left: 0.5% !important;
+    margin-right: 0.5% !important;
+}
+  
+.colorInput:focus {
+    border-width: 0 !important;
+    box-shadow: none !important;
+    text-transform: uppercase;
+}
+
+.threatRow {
+    border-radius: 25px;
+    height: 60px;
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+.indexInput {
+    top: 12px;
+    left: 15;
+    border-width: 0 !important;
+    box-shadow: 0 0 #FFF !important;
+    font-size: var(--mc-font-size) !important;
+
+    width: 90px !important;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.indexNext {
+    top: 20px;
+    left: 15;
+    font-size: var(--mc-font-size) !important;
+
+    float: left;
+    display: block;
+    position: relative;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
